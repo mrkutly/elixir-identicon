@@ -3,7 +3,7 @@ defmodule IdenticonTest do
   doctest Identicon
 
   test "main" do
-		assert Identicon.main("mark") == :ok
-		assert_raise ArgumentError, fn -> Identicon.main(123) end
+    assert Identicon.main("mark") == :ok
+    assert_raise ArgumentError, fn -> Identicon.main(123) end
   end
 end
